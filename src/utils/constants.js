@@ -118,4 +118,4 @@ export const coordinates = {
   longitude: -73.940033,
 };
 
-export const APIkey = "97896abd5a7fbf465a6985f151472d7f";
+export const APIkey = import.meta.env.VITE_OPENWEATHER_API_KEY;
