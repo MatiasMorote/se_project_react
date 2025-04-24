@@ -1,0 +1,29 @@
+.modal__content_type_image {
+  max-width: 498px;
+  max-height: 610px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal__footer {
+  margin: 20px 0 32px 20px;
+}
+
+.modal__caption {
+  font-size: 20px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__weather {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.modal__image {
+  max-width: 498px;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
