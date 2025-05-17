@@ -11,7 +11,7 @@
   visibility: hidden;
 }
 
-.modal__opened {
+.modal_opened {
   visibility: visible;
 }
 .modal__title {
@@ -67,9 +67,13 @@
   font-size: 16px;
   line-height: 1.2;
   color: #fff;
-  background-color: #0000004d;
+  background-color: #000000;
   border-radius: 4px;
   border: none;
+}
+
+.modal__submit:hover {
+  background-color: #0000004d;
 }
 
 .modal__legend {

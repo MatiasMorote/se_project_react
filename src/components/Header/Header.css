@@ -1,11 +1,24 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 32px 0 28px;
 }
 
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .header__logo {
-  margin-right: 24px;
+  margin: 0;
 }
 
 .header__date-and-location {
@@ -15,7 +28,7 @@
 }
 
 .header__add-clothes-btn {
-  margin: 0 20px 0 auto;
+  margin-left: auto;
   border: none;
   font-size: 20px;
   line-height: 1.2px;
@@ -31,4 +44,9 @@
   margin: 0;
   font-size: 20px;
   line-height: 1.2px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
 }
